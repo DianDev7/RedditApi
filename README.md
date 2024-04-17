@@ -42,9 +42,20 @@ To set up and run the RedditScraper project, follow these steps:
 5. **Access the Application**:
 - Open your web browser and go to `http://localhost:8080` to access the RedditScraper application.
 
+6. NB Run backend and execute Api on swagger , then run frontend . 
+
+## Packages Backend :
+- HttpClient
+- HtmlAgilityPack
+- HttpResults 
+
+## Packages Frontend :
+- Axios
+
 ## Usage
 - Upon accessing the application, you will see a list of the latest Reddit posts from the r/all subreddit.
 - Each post includes its title, subreddit title, upvote count, comment count, and age.
-- You can scroll through the posts and interact with the buttons provided for each post.
+- You can scroll through the posts ,but not button interaction
+
 
 That's it! You have successfully set up and run the RedditScraper project. Enjoy exploring the latest Reddit posts!
