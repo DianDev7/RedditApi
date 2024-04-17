@@ -1,25 +1,38 @@
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+builder.Services.AddControllers(); 
+builder.Services.AddEndpointsApiExplorer(); 
+builder.Services.AddSwaggerGen(); 
+builder.Services.AddCors(options => // Add CORS services,Cross-Origin Resource Sharing configuration
 
-builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI();
+    options.AddPolicy("AllowAll", // Define a CORS policy named "AllowAll"
+        builder =>
+        {
+            builder.AllowAnyOrigin() // Allow requests from any origin
+                   .AllowAnyMethod() // Allow any HTTP method
+                   .AllowAnyHeader(); // Allow any HTTP header
+        });
+});
+
+//CORS is used to enable communication between the frontend and backend components
+//of the application, allowing them to exchange data securely across different domains or ports.
+
+var app = builder.Build(); 
+
+
+if (app.Environment.IsDevelopment()) 
+{
+    app.UseDeveloperExceptionPage();
+    app.UseSwagger(); 
+    app.UseSwaggerUI(); 
 }
 
-app.UseHttpsRedirection();
+app.UseCors("AllowAll"); // Apply CORS policy
 
-app.UseAuthorization();
-
-app.MapControllers();
+app.UseHttpsRedirection(); 
+app.UseAuthorization(); 
+app.MapControllers(); 
 
 app.Run();

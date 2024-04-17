@@ -11,10 +11,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("80bca41e-8d4e-4367-b115-9e504ea34ec0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("RedditApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b11d059187b975526211ffd06701e3485e6a09fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("RedditApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RedditApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

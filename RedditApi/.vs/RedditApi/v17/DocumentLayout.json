@@ -1,0 +1,79 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Documents\\GitHub\\RedditApi\\RedditApi\\RedditApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73B5EF08-FC3A-40BD-AB9E-15526E781FA2}|RedditScrape007.csproj|c:\\users\\admin\\documents\\github\\redditapi\\redditapi\\redditapi\\models\\redditpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73B5EF08-FC3A-40BD-AB9E-15526E781FA2}|RedditScrape007.csproj|solutionrelative:models\\redditpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73B5EF08-FC3A-40BD-AB9E-15526E781FA2}|RedditScrape007.csproj|c:\\users\\admin\\documents\\github\\redditapi\\redditapi\\redditapi\\controllers\\redditapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73B5EF08-FC3A-40BD-AB9E-15526E781FA2}|RedditScrape007.csproj|solutionrelative:controllers\\redditapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73B5EF08-FC3A-40BD-AB9E-15526E781FA2}|RedditScrape007.csproj|c:\\users\\admin\\documents\\github\\redditapi\\redditapi\\redditapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73B5EF08-FC3A-40BD-AB9E-15526E781FA2}|RedditScrape007.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RedditPost.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\RedditApi\\RedditApi\\RedditApi\\Models\\RedditPost.cs",
+              "RelativeDocumentMoniker": "Models\\RedditPost.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\RedditApi\\RedditApi\\RedditApi\\Models\\RedditPost.cs",
+              "RelativeToolTip": "Models\\RedditPost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T21:47:01.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RedditApiController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\RedditApi\\RedditApi\\RedditApi\\Controllers\\RedditApiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RedditApiController.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\RedditApi\\RedditApi\\RedditApi\\Controllers\\RedditApiController.cs",
+              "RelativeToolTip": "Controllers\\RedditApiController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T15:21:44.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Documents\\GitHub\\RedditApi\\RedditApi\\RedditApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\admin\\Documents\\GitHub\\RedditApi\\RedditApi\\RedditApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-15T13:47:51.147Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
